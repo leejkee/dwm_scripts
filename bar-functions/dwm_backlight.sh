@@ -7,7 +7,7 @@
 # Dependencies: xbacklight
 
 dwm_backlight () {
-    printf "ﲍ %.0f%s|\n" "$(xbacklight)"
+    printf " %.0f%s|\n" "$(xbacklight)"
 }
 
 dwm_backlight

@@ -16,7 +16,7 @@ dwm_pulse () {
         if [ "$STATE" = "true" ] || [ "$VOL" -eq 0 ]; then
             printf "婢"
         else
-            printf "墳%s%%" "$VOL"
+            printf " %s%%" "$VOL"
         fi
     else
         if [ "$STATE" = "true" ] || [ "$VOL" -eq 0 ]; then
