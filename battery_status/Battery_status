@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Print the status of the battery.(My PC is Huawei matebook13)
+cat /sys/class/power_supply/BAT0/capacity
+cat /sys/class/power_supply/BAT0/status
